@@ -1,7 +1,9 @@
 import uuid
 import mysql.connector
 from typing import List
-from models.models import Book
+from models.book import Book
+from dataclasses import dataclass, field
+import uuid
 
 
 class BookRepository:
